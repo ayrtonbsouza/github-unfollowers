@@ -1,13 +1,9 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Title } from './styles';
 
 const Home: React.FC = () => {
-  return (
-    <Container>
-      <h1>Home</h1>
-    </Container>
-  );
+  return <Title>See who is not following you back on Github.</Title>;
 };
 
 export default Home;
