@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -30,11 +31,18 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": "off",
+    "no-unused-expressions": "off",
+    "import/no-duplicates": "off",
+    "camelcase": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/camelcase": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/jsx-one-expression-per-line": "off",
-    "no-use-before-define": "off",
     "react/prop-types": "off",
+    "@typescript-eslint/ban-types": "off",
     "react/jsx-filename-extension": [
       1,
       {

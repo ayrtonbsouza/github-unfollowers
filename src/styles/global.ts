@@ -11,6 +11,7 @@ export default createGlobalStyle`
   body {
     background-color: #1C1C28;
     -webkit-font-smoothing: antialiased;
+    height: 100%;
   }
 
   body, input, button {
@@ -18,9 +19,9 @@ export default createGlobalStyle`
   }
 
   #root {
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 0;
   }
 
   button {
