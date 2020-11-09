@@ -14,7 +14,7 @@ interface GithubFormData {
 const Home: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
   const handleSubmit = useCallback(async (data: GithubFormData) => {
-    console.log(data);
+    return data;
   }, []);
   return (
     <>
