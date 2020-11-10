@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   return (
     <Container>
       <Title>
-        Made with <span>🤍</span> by Ayrton Souza.
+        Made with <span>♥️</span> by Ayrton Souza.
       </Title>
       <SocialMedia>
         <a
