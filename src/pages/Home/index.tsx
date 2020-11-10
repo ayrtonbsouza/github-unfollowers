@@ -5,6 +5,7 @@ import { FiGithub } from 'react-icons/fi';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import { Container, Title, Search } from './styles';
 
 interface GithubFormData {
@@ -28,11 +29,13 @@ const Home: React.FC = () => {
               name="user"
               type="text"
               placeholder="Type your Github username here"
+              className="github-username-input"
             />
             <Button type="submit">Search</Button>
           </Form>
         </Search>
       </Container>
+      <Footer />
     </>
   );
 };
