@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const SocialMedia = styled.div`
-  margin: 0 40px;
+  margin-right: 20px;
   img {
     height: 20px;
     margin: 0 5px;
@@ -19,5 +19,5 @@ export const SocialMedia = styled.div`
 export const Title = styled.p`
   font-size: 10px;
   color: #f2f2f2;
-  margin: 0 40px;
+  margin-left: 20px;
 `;
