@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100px;
+  height: 10vh;
   background: #000000;
   display: flex;
   justify-content: space-between;
@@ -11,13 +11,13 @@ export const Container = styled.div`
 export const SocialMedia = styled.div`
   margin: 0 40px;
   img {
-    height: 32px;
-    margin: 0 10px;
+    height: 20px;
+    margin: 0 5px;
   }
 `;
 
 export const Title = styled.p`
-  font-size: 16px;
+  font-size: 10px;
   color: #f2f2f2;
   margin: 0 40px;
 `;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100px;
+  height: 10vh;
   background: #40404b;
   display: flex;
   justify-content: center;
@@ -9,11 +9,11 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 50px;
+  height: 30px;
 `;
 
 export const Title = styled.h1`
-  font-size: 20px;
+  font-size: 16px;
   color: #f2f2f2;
-  margin: 0 20px;
+  margin-left: 16px;
 `;
