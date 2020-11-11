@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, SocialMedia, Title } from './styles';
-import Github from '../../assets/github.svg';
+import Github from '../../assets/footer-github.svg';
 import Linkedin from '../../assets/linkedin.svg';
 import Whatsapp from '../../assets/whatsapp.svg';
 import Medium from '../../assets/medium.svg';

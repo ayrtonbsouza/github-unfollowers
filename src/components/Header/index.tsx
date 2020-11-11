@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Logo, Title } from './styles';
-import Github from '../../assets/github.svg';
+import Github from '../../assets/header-github.svg';
 
 const Header: React.FC = () => {
   return (
