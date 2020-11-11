@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, SocialMedia, Title } from './styles';
 import Github from '../../assets/github.svg';
 import Linkedin from '../../assets/linkedin.svg';
+import Whatsapp from '../../assets/whatsapp.svg';
 import Medium from '../../assets/medium.svg';
 
 const Header: React.FC = () => {
@@ -31,6 +32,13 @@ const Header: React.FC = () => {
           rel="noreferrer"
         >
           <img src={Linkedin} alt="linkedin" />
+        </a>
+        <a
+          href="https://web.whatsapp.com/send?phone=+5511941800859"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={Whatsapp} alt="whatsapp" />
         </a>
       </SocialMedia>
     </Container>
